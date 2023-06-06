@@ -6,4 +6,10 @@ spring:
     name: spring-blog
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+springdoc:
+  swagger-ui:
+    tags-sorter: alpha
+    operations-sorter: alpha
+    path: /swagger-ui-custom.html
+
 
